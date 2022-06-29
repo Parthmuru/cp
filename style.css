@@ -1,0 +1,118 @@
+body {
+    font-family: 'Special Elite', cursive;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.text_images_and_result {
+    background: #fff8f8;
+	padding: 30px;
+	border-radius: 20px;
+	width: 50%;
+	display: inline-block;
+}
+
+.copyright_footer{
+    position: fixed;
+    color: #6c757d;
+    bottom: 10px;
+    width: 100%;
+    background-color: #f5f5f5;
+    line-height: 3;
+    text-align: center;
+}
+
+.header_div {
+    background-color: white;
+    color: #ce2700;
+    animation-name: nothing;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.header_div img {
+    width: 100px;
+}
+
+.result
+{
+	box-shadow: 5px 5px 18px grey;
+	letter-spacing: 2px;
+	background:lightskyblue;
+	border-radius: 20px;
+	margin-top:30px;
+	padding: 20px;
+	border:2px solid grey
+}
+
+body{
+    animation-name: nothing;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nothing{
+    0%{background-color:lightgoldenrodyellow}
+    10%{background-color:lightblue}
+    20%{background-color:lightgreen}
+    30%{background-color:lightpink}
+    40%{background-color:lightsalmon}
+    50%{background-color:lightseagreen}
+    60%{background-color:lightskyblue}
+    70%{background-color:lightslategray}
+    80%{background-color:lightyellow}
+    90%{background-color:lightcoral}
+    100%{background-color:lightgoldenrodyellow}
+}
+
+marquee{
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#bl{
+    float: left;
+}
+
+#bl1{
+    float: right;
+}
+
+#blaa{
+ height: 70%;
+ width: 50%;
+ margin-top: 80px
+}
+
+.text_images_and_result:hover{
+    box-shadow: 7px 7px 7px 7px rgba(234, 46, 8, 0.527);
+    animation-name: nott;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nott{
+    0%{background-color:lightgoldenrodyellow}
+    25%{background-color:lightblue}
+    50%{background-color:lightgreen}
+    75%{background-color:lightcoral}
+    100%{background-color:lightgoldenrodyellow}
+}
+
+.hg{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.jj{
+    font-size: 25px;
+}
+
+.nh{
+    font-size: 45px;
+}
+
+.gg{
+    font-size: 25px;
+}
